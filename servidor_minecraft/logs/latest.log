@@ -1,159 +1,152 @@
-[18:40:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[18:40:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[18:40:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:40:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[18:40:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[04:09:49] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[04:09:49] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[04:09:49] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:09:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[04:09:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - Essentials (2.21.0-dev+141-c7cc1b4), FastAsyncWorldEdit (2.12.3-SNAPSHOT-986;a2a5545), Geyser-Spigot (2.5.0-SNAPSHOT), LoginSecurity (3.3.0), ViaVersion (5.1.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[18:40:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:40:13] [ServerMain/INFO]: Loaded 1337 recipes
-[18:40:13] [ServerMain/INFO]: Loaded 1448 advancements
-[18:40:13] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[18:40:13] [Server thread/INFO]: Loading properties
-[18:40:13] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[18:40:15] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:40:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:40:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:40:16] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[18:40:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[18:40:16] [Server thread/INFO]: Default game type: SURVIVAL
-[18:40:16] [Server thread/INFO]: Generating keypair
-[18:40:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:40:17] [Server thread/INFO]: Using epoll channel type
-[18:40:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:40:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:40:19] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[18:40:20] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[18:40:20] [Server thread/INFO]: [floodgate] Took 1,311ms to boot Floodgate
-[18:40:20] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[18:40:20] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[18:40:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[18:40:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[18:40:21] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+141-c7cc1b4
-[18:40:21] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
-[18:40:21] [Server thread/WARN]: 
+[04:09:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:09:56] [ServerMain/INFO]: Loaded 1337 recipes
+[04:09:56] [ServerMain/INFO]: Loaded 1448 advancements
+[04:09:56] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[04:09:56] [Server thread/INFO]: Loading properties
+[04:09:56] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[04:09:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:09:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:09:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:09:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:09:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:09:58] [Server thread/INFO]: Default game type: SURVIVAL
+[04:09:58] [Server thread/INFO]: Generating keypair
+[04:09:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:09:58] [Server thread/INFO]: Using epoll channel type
+[04:09:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:09:58] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:09:59] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:10:00] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:10:00] [Server thread/INFO]: [floodgate] Took 771ms to boot Floodgate
+[04:10:00] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[04:10:00] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[04:10:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:10:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:10:01] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+141-c7cc1b4
+[04:10:01] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[04:10:01] [Server thread/WARN]: 
 **********************************************
 ** You are using the Spigot-mapped FAWE jar on a modern Paper version.
 ** This will result in slower first-run times and wasted disk space from plugin remapping.
 ** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
 **********************************************
-[18:40:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1b42e923]
-[18:40:23] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
-[18:40:23] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[18:40:23] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[18:40:23] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[18:40:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:40:23] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
-[18:40:24] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[18:40:24] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[18:40:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:40:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:40:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_3.PaperweightFaweAdapter as the Bukkit adapter
-[18:40:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:40:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:40:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:40:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:40:26] [Server thread/INFO]: Preparing level "world"
-[18:40:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:40:27] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[18:40:27] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 408.6ms
-[18:40:27] [Server thread/INFO]: Preparing spawn area: 0%
-[18:40:27] [Server thread/INFO]: Preparing spawn area: 0%
-[18:40:28] [Server thread/INFO]: Preparing spawn area: 0%
-[18:40:28] [Server thread/INFO]: Preparing spawn area: 0%
-[18:40:28] [Server thread/INFO]: Time elapsed: 1570 ms
-[18:40:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:40:28] [Server thread/INFO]: Preparing spawn area: 0%
-[18:40:28] [Server thread/INFO]: Time elapsed: 413 ms
-[18:40:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:40:28] [Server thread/INFO]: Preparing spawn area: 0%
-[18:40:29] [Server thread/INFO]: Time elapsed: 290 ms
-[18:40:29] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[18:40:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[18:40:29] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[18:40:29] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[18:40:29] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[18:40:29] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[18:40:29] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[18:40:29] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[18:40:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+141-c7cc1b4
-[18:40:30] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[18:40:30] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[18:40:30] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
-[18:40:30] [Server thread/INFO]: [Essentials] Using locale en
-[18:40:30] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:40:31] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:40:31] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[18:40:31] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
-[18:40:31] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[18:40:31] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[18:40:31] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[18:40:31] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[18:40:31] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[18:40:31] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[18:40:32] [Server thread/INFO]: [spark] Starting background profiler...
-[18:40:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:40:33] [Server thread/INFO]: [Geyser-Spigot] 
-[18:40:33] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
-[18:40:33] [Server thread/INFO]: [Geyser-Spigot] 
-[18:40:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:40:38] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[18:40:38] [Server thread/INFO]: [Geyser-Spigot] Done (5.833s)! Run /geyser help for help!
-[18:40:38] [Server thread/INFO]: Done preparing level "world" (12.727s)
-[18:40:38] [Server thread/INFO]: Running delayed init tasks
-[18:40:38] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[18:40:39] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[18:40:39] [Server thread/INFO]: Done (41.418s)! For help, type "help"
-[18:40:40] [User Authenticator #0/INFO]: UUID of player xd600yu is ad24774e-c992-3e4c-9e0c-e2e893f74d49
-[18:40:42] [Server thread/INFO]: xd600yu joined the game
-[18:40:42] [Server thread/INFO]: xd600yu[/127.45.202.141:34759] logged in with entity id 60 at ([world]-87.6452649278297, 64.0, -83.31487745944344)
-[18:41:23] [Server thread/INFO]: xd600yu issued server command: /gamerule keepInventory false
-[18:41:23] [Server thread/INFO]: [xd600yu: Gamerule keepInventory is now set to: false]
-[18:41:41] [Server thread/INFO]: xd600yu issued server command: /kill xd600yu
-[18:41:41] [Server thread/INFO]: xd600yu died
-[18:42:08] [Server thread/INFO]: xd600yu lost connection: Disconnected
-[18:42:08] [Server thread/INFO]: xd600yu left the game
-[18:42:18] [Server thread/INFO]: Stopping server
-[18:42:18] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
-[18:42:18] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[18:42:18] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[18:42:18] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.0-SNAPSHOT
-[18:42:18] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[18:42:18] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[18:42:18] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
-[18:42:18] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[18:42:18] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+141-c7cc1b4
-[18:42:18] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
-[18:42:18] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[18:42:18] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[18:42:18] [Server thread/INFO]: Saving players
-[18:42:18] [Server thread/INFO]: Saving worlds
-[18:42:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:42:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:42:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:42:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:42:18] [WebSocketConnectReadThread-98/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Saved 726 block chunks, 726 entity chunks, 0 poi chunks in world 'world' in 1.26s
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[18:42:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[18:42:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[18:42:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[18:42:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:42:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:42:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:42:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:42:20] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[18:42:20] [Server thread/INFO]: All I/O tasks to complete
-[18:42:20] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[18:42:20] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[04:10:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@9fd3d45]
+[04:10:01] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[04:10:02] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:10:02] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:10:02] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[04:10:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:10:02] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[04:10:02] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[04:10:02] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[04:10:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[04:10:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[04:10:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_3.PaperweightFaweAdapter as the Bukkit adapter
+[04:10:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:10:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:10:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:10:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:10:03] [Server thread/INFO]: Preparing level "world"
+[04:10:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:10:04] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[04:10:04] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 278.8ms
+[04:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:04] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:05] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:05] [Server thread/INFO]: Time elapsed: 1158 ms
+[04:10:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:10:05] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:05] [Server thread/INFO]: Time elapsed: 300 ms
+[04:10:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:10:05] [Server thread/INFO]: Preparing spawn area: 0%
+[04:10:05] [Server thread/INFO]: Time elapsed: 78 ms
+[04:10:05] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:10:06] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[04:10:06] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[04:10:06] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[04:10:06] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[04:10:06] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[04:10:06] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[04:10:06] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[04:10:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+141-c7cc1b4
+[04:10:06] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[04:10:06] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[04:10:06] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[04:10:06] [Server thread/INFO]: [Essentials] Using locale en
+[04:10:07] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:10:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:10:07] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[04:10:07] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[04:10:07] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[04:10:07] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[04:10:07] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[04:10:07] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[04:10:07] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[04:10:07] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[04:10:08] [Server thread/INFO]: [spark] Starting background profiler...
+[04:10:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:10:08] [Server thread/INFO]: [Geyser-Spigot] 
+[04:10:08] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
+[04:10:08] [Server thread/INFO]: [Geyser-Spigot] 
+[04:10:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:10:12] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[04:10:12] [Server thread/INFO]: [Geyser-Spigot] Done (4.348s)! Run /geyser help for help!
+[04:10:12] [Server thread/INFO]: Done preparing level "world" (9.182s)
+[04:10:12] [Server thread/INFO]: Running delayed init tasks
+[04:10:12] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:10:12] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[04:10:12] [Server thread/INFO]: Done (24.566s)! For help, type "help"
+[04:10:13] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] You're 2 EssentialsX dev build(s) out of date!
+[04:10:13] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[04:11:12] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[04:11:39] [Server thread/INFO]: Stopping server
+[04:11:39] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[04:11:39] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[04:11:39] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[04:11:39] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.0-SNAPSHOT
+[04:11:39] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[04:11:39] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[04:11:39] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[04:11:39] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[04:11:39] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+141-c7cc1b4
+[04:11:39] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
+[04:11:39] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[04:11:39] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:11:39] [Server thread/INFO]: Saving players
+[04:11:39] [Server thread/INFO]: Saving worlds
+[04:11:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 21 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[04:11:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[04:11:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[04:11:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[04:11:39] [WebSocketConnectReadThread-97/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[04:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:11:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:11:39] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[04:11:39] [Server thread/INFO]: All I/O tasks to complete
+[04:11:39] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:11:39] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
