@@ -1,198 +1,511 @@
-[00:46:08] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[00:46:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[00:46:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:46:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[00:46:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - Essentials (2.21.0-dev+143-b560bbd), FastAsyncWorldEdit (2.12.3-SNAPSHOT-986;a2a5545), Geyser-Spigot (2.5.0-SNAPSHOT), LoginSecurity (3.3.0), ViaVersion (5.1.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[00:46:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:46:14] [ServerMain/INFO]: Loaded 1337 recipes
-[00:46:14] [ServerMain/INFO]: Loaded 1448 advancements
-[00:46:14] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[00:46:14] [Server thread/INFO]: Loading properties
-[00:46:14] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[00:46:15] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:46:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:46:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:46:16] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[00:46:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[00:46:16] [Server thread/INFO]: Default game type: SURVIVAL
-[00:46:16] [Server thread/INFO]: Generating keypair
-[00:46:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:46:16] [Server thread/INFO]: Using epoll channel type
-[00:46:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:46:16] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:46:17] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[00:46:18] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[00:46:18] [Server thread/INFO]: [floodgate] Took 671ms to boot Floodgate
-[00:46:18] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[00:46:18] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[00:46:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:46:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:46:18] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
-[00:46:18] [Server thread/WARN]: 
+[00:51:02] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[00:51:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[00:51:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:51:03] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-core-4.3.14.jar'...
+[00:51:03] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-core-4.3.14.jar' in 625ms.
+[00:51:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[00:51:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+143-b560bbd), FastAsyncWorldEdit (2.12.3-SNAPSHOT-986;a2a5545), Geyser-Spigot (2.5.0-SNAPSHOT), LoginSecurity (3.3.0), Multiverse-Core (4.3.14), ViaVersion (5.1.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[00:51:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:51:09] [ServerMain/INFO]: Loaded 1337 recipes
+[00:51:09] [ServerMain/INFO]: Loaded 1448 advancements
+[00:51:09] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[00:51:09] [Server thread/INFO]: Loading properties
+[00:51:09] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[00:51:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:51:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:51:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:51:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:51:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:51:11] [Server thread/INFO]: Default game type: SURVIVAL
+[00:51:11] [Server thread/INFO]: Generating keypair
+[00:51:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:51:11] [Server thread/INFO]: Using epoll channel type
+[00:51:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:51:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:51:13] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[00:51:14] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:51:14] [Server thread/INFO]: [floodgate] Took 869ms to boot Floodgate
+[00:51:14] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[00:51:14] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[00:51:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:51:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:51:15] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[00:51:15] [Server thread/WARN]: 
 **********************************************
 ** You are using the Spigot-mapped FAWE jar on a modern Paper version.
 ** This will result in slower first-run times and wasted disk space from plugin remapping.
 ** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
 **********************************************
-[00:46:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3795c3fc]
-[00:46:19] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+143-b560bbd
-[00:46:19] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
-[00:46:20] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[00:46:20] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[00:46:20] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[00:46:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:46:20] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
-[00:46:20] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[00:46:20] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[00:46:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[00:46:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[00:46:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_3.PaperweightFaweAdapter as the Bukkit adapter
-[00:46:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:46:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:46:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:46:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:46:21] [Server thread/INFO]: Preparing level "world"
-[00:46:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:46:22] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[00:46:22] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 358.9ms
-[00:46:22] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:22] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:23] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:23] [Server thread/INFO]: Time elapsed: 1285 ms
-[00:46:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:46:23] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:23] [Server thread/INFO]: Time elapsed: 271 ms
-[00:46:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:46:23] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:23] [Server thread/INFO]: Time elapsed: 109 ms
-[00:46:23] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[00:46:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[00:46:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[00:46:24] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[00:46:24] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[00:46:24] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[00:46:24] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[00:46:24] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[00:46:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+143-b560bbd
-[00:46:24] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:46:24] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:46:24] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[00:46:24] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[00:46:24] [Server thread/INFO]: [Essentials] Converted 0/1
-[00:46:24] [Server thread/INFO]: [Essentials] Ban format update complete.
-[00:46:24] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[00:46:24] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[00:46:24] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[00:46:24] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[00:46:24] [Server thread/INFO]: [Essentials] Done converting mail list.
-[00:46:24] [Server thread/INFO]: [Essentials] #===========================================================================#
-[00:46:24] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[00:46:24] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[00:46:24] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[00:46:24] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[00:46:24] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[00:46:24] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[00:46:24] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[00:46:24] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[00:46:24] [Server thread/INFO]: [Essentials] 
-[00:46:24] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[00:46:24] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[00:46:24] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[00:46:24] [Server thread/INFO]: [Essentials] #===========================================================================#
-[00:46:24] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[00:46:24] [Server thread/INFO]: [Essentials] #===========================================================================#
-[00:46:24] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[00:46:24] [Server thread/INFO]: [Essentials] 
-[00:46:24] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[00:46:24] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[00:46:24] [Server thread/INFO]: [Essentials] 
-[00:46:24] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[00:46:24] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[00:46:24] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[00:46:24] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[00:46:24] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[00:46:24] [Server thread/INFO]: [Essentials] #===========================================================================#
-[00:46:24] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
-[00:46:24] [Server thread/INFO]: [Essentials] Using locale en
-[00:46:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:46:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:46:25] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[00:46:25] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
-[00:46:25] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[00:46:25] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[00:46:25] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[00:46:25] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[00:46:25] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[00:46:25] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[00:46:25] [Server thread/INFO]: [spark] Starting background profiler...
-[00:46:26] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:46:26] [Server thread/INFO]: [Geyser-Spigot] 
-[00:46:26] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
-[00:46:26] [Server thread/INFO]: [Geyser-Spigot] 
-[00:46:26] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:46:30] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[00:46:30] [Server thread/INFO]: [Geyser-Spigot] Done (4.185s)! Run /geyser help for help!
-[00:46:30] [Server thread/INFO]: Done preparing level "world" (8.878s)
-[00:46:30] [Server thread/INFO]: Running delayed init tasks
-[00:46:30] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[00:46:30] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[00:46:30] [Server thread/INFO]: Done (23.485s)! For help, type "help"
-[00:46:42] [User Authenticator #0/INFO]: UUID of player xd600yu is ad24774e-c992-3e4c-9e0c-e2e893f74d49
-[00:46:43] [Server thread/INFO]: xd600yu joined the game
-[00:46:43] [Server thread/INFO]: xd600yu[/127.45.202.141:45267] logged in with entity id 72 at ([world]-89.71559146410809, 76.19205589577389, -94.79585949538287)
-[00:46:52] [Server thread/INFO]: xd600yu issued server command: /gm s
-[00:47:01] [Server thread/INFO]: xd600yu issued server command: /gm c
-[00:47:05] [Server thread/INFO]: xd600yu issued server command: /gm s
-[00:47:26] [Server thread/INFO]: xd600yu issued server command: /clean
-[00:47:40] [Server thread/INFO]: xd600yu issued server command: /clearinventory xd600yu
-[00:47:45] [Server thread/INFO]: xd600yu issued server command: /clearinventory xd600yu
-[00:47:58] [Server thread/INFO]: xd600yu issued server command: /gm c
-[00:48:09] [Server thread/INFO]: xd600yu issued server command: /tp 1000 60 1000
-[00:48:55] [Server thread/INFO]: xd600yu lost connection: Disconnected
-[00:48:55] [Server thread/INFO]: xd600yu left the game
-[00:49:02] [Server thread/INFO]: Stopping server
-[00:49:02] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
-[00:49:02] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[00:49:02] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[00:49:02] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.0-SNAPSHOT
-[00:49:02] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[00:49:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[00:49:02] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+143-b560bbd
-[00:49:02] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
-[00:49:02] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[00:49:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
-[00:49:02] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[00:49:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[00:49:02] [Server thread/INFO]: Saving players
-[00:49:02] [Server thread/INFO]: Saving worlds
-[00:49:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:49:02] [WebSocketConnectReadThread-99/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[00:49:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:49:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:49:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Saved 786 block chunks, 778 entity chunks, 0 poi chunks in world 'world' in 2.56s
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[00:49:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[00:49:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[00:49:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[00:49:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:49:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:49:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:49:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:49:05] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[00:49:05] [Server thread/INFO]: All I/O tasks to complete
-[00:49:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[00:49:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:51:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@48e6887f]
+[00:51:15] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[00:51:15] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+143-b560bbd
+[00:51:15] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[00:51:16] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:51:16] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[00:51:16] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[00:51:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:51:16] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[00:51:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[00:51:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[00:51:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:51:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:51:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_3.PaperweightFaweAdapter as the Bukkit adapter
+[00:51:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:51:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:51:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:51:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:51:17] [Server thread/INFO]: Preparing level "world"
+[00:51:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:51:18] [Server thread/INFO]: Preparing spawn area: 0%
+[00:51:18] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[00:51:18] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 295.3ms
+[00:51:18] [Server thread/INFO]: Preparing spawn area: 2%
+[00:51:19] [Server thread/INFO]: Preparing spawn area: 24%
+[00:51:19] [Server thread/INFO]: Time elapsed: 1233 ms
+[00:51:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:51:19] [Server thread/INFO]: Preparing spawn area: 0%
+[00:51:19] [Server thread/INFO]: Time elapsed: 259 ms
+[00:51:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:51:19] [Server thread/INFO]: Preparing spawn area: 0%
+[00:51:19] [Server thread/INFO]: Time elapsed: 104 ms
+[00:51:19] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[00:51:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[00:51:20] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[00:51:20] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[00:51:20] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[00:51:20] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[00:51:20] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[00:51:20] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[00:51:20] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[00:51:20] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[00:51:20] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[00:51:20] [Server thread/WARN]: [Multiverse-Core] Cannot load worlds.yml
+[00:51:20] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 1368007380744796206
+[00:51:20] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 1368007380744796206
+[00:51:20] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[00:51:20] [Server thread/WARN]: [Multiverse-Core] Original Location: X: -64 Y: 69 Z: -80 P: 0 Y: 0 
+[00:51:20] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_nether' is located at: world_nether:-55.50,72.00,-87.50:0.00:0.00
+[00:51:20] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 1368007380744796206
+[00:51:20] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[00:51:20] [Server thread/WARN]: [Multiverse-Core] Original Location: X: -64 Y: 69 Z: -80 P: 0 Y: 0 
+[00:51:21] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_the_end' is located at: world_the_end:0.00,64.00,0.00:0.00:0.00
+[00:51:21] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[00:51:21] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[00:51:21] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[00:51:21] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+143-b560bbd
+[00:51:22] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:51:22] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:51:22] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[00:51:22] [Server thread/INFO]: [Essentials] Using locale en
+[00:51:22] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:51:22] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:51:22] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:51:22] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[00:51:23] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[00:51:23] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[00:51:23] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[00:51:23] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[00:51:23] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[00:51:23] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[00:51:23] [Server thread/INFO]: [spark] Starting background profiler...
+[00:51:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:51:23] [Server thread/INFO]: [Geyser-Spigot] 
+[00:51:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
+[00:51:23] [Server thread/INFO]: [Geyser-Spigot] 
+[00:51:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:51:27] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[00:51:27] [Server thread/INFO]: [Geyser-Spigot] Done (3.945s)! Run /geyser help for help!
+[00:51:28] [Server thread/INFO]: Done preparing level "world" (10.237s)
+[00:51:28] [Server thread/INFO]: Running delayed init tasks
+[00:51:28] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:51:28] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:51:28] [Server thread/INFO]: Done (26.560s)! For help, type "help"
+[00:51:35] [User Authenticator #0/INFO]: UUID of player xd600yu is ad24774e-c992-3e4c-9e0c-e2e893f74d49
+[00:51:36] [Server thread/INFO]: xd600yu joined the game
+[00:51:36] [Server thread/INFO]: xd600yu[/127.45.202.141:51195] logged in with entity id 24 at ([world]1028.1158153637678, 71.0, 958.9415302316792)
+[00:51:47] [Server thread/INFO]: xd600yu issued server command: /plugins
+[00:52:00] [Server thread/INFO]: xd600yu issued server command: /news
+[00:58:59] [Server thread/INFO]: xd600yu lost connection: Disconnected
+[00:58:59] [Server thread/INFO]: xd600yu left the game
+[00:59:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:01:23] [User Authenticator #1/INFO]: UUID of player xd600yu is ad24774e-c992-3e4c-9e0c-e2e893f74d49
+[01:01:24] [Server thread/INFO]: xd600yu joined the game
+[01:01:24] [Server thread/INFO]: xd600yu[/127.45.202.141:57285] logged in with entity id 951 at ([world]1027.5749436513827, 72.0, 965.4680330170885)
+[01:01:33] [Server thread/INFO]: xd600yu issued server command: /reload
+[01:01:33] [Server thread/INFO]: xd600yu: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[01:01:41] [Server thread/INFO]: xd600yu issued server command: /reload confirm
+[01:01:41] [Server thread/INFO]: xd600yu: Please note that this command is not supported and may cause issues when using some plugins.
+[01:01:41] [Server thread/INFO]: xd600yu: If you encounter any issues please use the /stop command to restart your server.
+[01:01:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:01:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:01:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[01:01:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:01:41] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[01:01:41] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[01:01:41] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[01:01:41] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.0-SNAPSHOT
+[01:01:41] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:01:41] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:01:41] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+143-b560bbd
+[01:01:41] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[01:01:41] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
+[01:01:41] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[01:01:41] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:01:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
+[01:01:41] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[01:01:41] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[01:01:41] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[01:01:41] [WebSocketConnectReadThread-101/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[01:01:42] [Server thread/INFO]: Loaded 1337 recipes
+[01:01:42] [Server thread/INFO]: Loaded 1448 advancements
+[01:01:42] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:01:42] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
+[01:01:42] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:01:42] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[01:01:42] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+143-b560bbd), FastAsyncWorldEdit (2.12.3-SNAPSHOT-986;a2a5545), Geyser-Spigot (2.5.0-SNAPSHOT), LoginSecurity (3.3.0), Multiverse-Core (4.3.14), ViaVersion (5.1.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[01:01:43] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[01:01:43] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[01:01:43] [Server thread/INFO]: [floodgate] Took 512ms to boot Floodgate
+[01:01:43] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[01:01:43] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[01:01:43] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[01:01:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:01:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:01:44] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[01:01:44] [Server thread/WARN]: 
+**********************************************
+** You are using the Spigot-mapped FAWE jar on a modern Paper version.
+** This will result in slower first-run times and wasted disk space from plugin remapping.
+** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
+**********************************************
+[01:01:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6ef4cd29]
+[01:01:45] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[01:01:45] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+143-b560bbd
+[01:01:45] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[01:01:45] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[01:01:45] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[01:01:45] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[01:01:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:01:45] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[01:01:45] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[01:01:45] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[01:01:45] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:01:45] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:01:45] [Server thread/WARN]: Server reload detected. This may cause various issues with FastAsyncWorldEdit and dependent plugins. Reloading the server is not advised.
+[01:01:45] [Server thread/WARN]: For more information why reloading is bad, see https://madelinemiller.dev/blog/problem-with-reload/
+[01:01:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_3.PaperweightFaweAdapter as the Bukkit adapter
+[01:01:46] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[01:01:46] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[01:01:46] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
+[01:01:46] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
+[01:01:46] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[01:01:46] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[01:01:46] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[01:01:46] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[01:01:46] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[01:01:46] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[01:01:46] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[01:01:46] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[01:01:46] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[01:01:46] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[01:01:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[01:01:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[01:01:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148)
+[01:01:46] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1038)
+[01:01:46] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[01:01:46] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+[01:01:46] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:355)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:342)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344)
+[01:01:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[01:01:46] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:01:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[01:01:46] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[01:01:46] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[01:01:46] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[01:01:46] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[01:01:46] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[01:01:46] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[01:01:46] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[01:01:46] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:01:46] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:01:46] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[01:01:46] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:01:46] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:01:46] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+143-b560bbd
+[01:01:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:01:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:01:47] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[01:01:47] [Server thread/INFO]: [Essentials] Using locale en
+[01:01:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:01:47] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:01:47] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[01:01:47] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[01:01:47] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[01:01:47] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[01:01:47] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[01:01:47] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[01:01:47] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[01:01:47] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[01:01:47] [Paper Async Command Builder Thread Pool - 2/ERROR]: Caught previously unhandled exception :
+[01:01:47] [Paper Async Command Builder Thread Pool - 2/ERROR]: Paper Async Command Builder Thread Pool - 2
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:01:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:01:47] [Server thread/INFO]: [Geyser-Spigot] 
+[01:01:47] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
+[01:01:47] [Server thread/INFO]: [Geyser-Spigot] 
+[01:01:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:01:50] [epollEventLoopGroup-9-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[01:01:50] [Server thread/INFO]: [Geyser-Spigot] Done (3.175s)! Run /geyser help for help!
+[01:01:50] [Server thread/INFO]: xd600yu: Reload complete.
+[01:01:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9724ms or 194 ticks behind
+[01:01:50] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:01:51] [Craft Scheduler Thread - 9 - Essentials/INFO]: [Essentials] Fetching version information...
+[01:03:09] [Server thread/INFO]: xd600yu issued server command: /mv import lobby normal
+[01:04:07] [Server thread/INFO]: xd600yu issued server command: /reload
+[01:04:07] [Server thread/INFO]: xd600yu: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[01:04:10] [Server thread/INFO]: xd600yu issued server command: /reload confirm
+[01:04:10] [Server thread/INFO]: xd600yu: Please note that this command is not supported and may cause issues when using some plugins.
+[01:04:10] [Server thread/INFO]: xd600yu: If you encounter any issues please use the /stop command to restart your server.
+[01:04:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:04:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:04:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[01:04:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:04:10] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[01:04:10] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[01:04:10] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[01:04:10] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.0-SNAPSHOT
+[01:04:10] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:04:11] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:04:11] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+143-b560bbd
+[01:04:11] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[01:04:11] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
+[01:04:11] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[01:04:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:04:11] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
+[01:04:11] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[01:04:11] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[01:04:11] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[01:04:11] [WebSocketConnectReadThread-213/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[01:04:11] [Server thread/INFO]: Loaded 1337 recipes
+[01:04:11] [Server thread/INFO]: Loaded 1448 advancements
+[01:04:11] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:04:11] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[01:04:11] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+143-b560bbd), FastAsyncWorldEdit (2.12.3-SNAPSHOT-986;a2a5545), Geyser-Spigot (2.5.0-SNAPSHOT), LoginSecurity (3.3.0), Multiverse-Core (4.3.14), ViaVersion (5.1.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[01:04:12] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[01:04:12] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[01:04:12] [Server thread/INFO]: [floodgate] Took 499ms to boot Floodgate
+[01:04:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[01:04:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[01:04:12] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[01:04:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:04:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:04:13] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[01:04:13] [Server thread/WARN]: 
+**********************************************
+** You are using the Spigot-mapped FAWE jar on a modern Paper version.
+** This will result in slower first-run times and wasted disk space from plugin remapping.
+** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
+**********************************************
+[01:04:13] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@680d9644]
+[01:04:13] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[01:04:13] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+143-b560bbd
+[01:04:13] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[01:04:14] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[01:04:14] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[01:04:14] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[01:04:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:04:14] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[01:04:14] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[01:04:14] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[01:04:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:04:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:04:14] [Server thread/WARN]: Server reload detected. This may cause various issues with FastAsyncWorldEdit and dependent plugins. Reloading the server is not advised.
+[01:04:14] [Server thread/WARN]: For more information why reloading is bad, see https://madelinemiller.dev/blog/problem-with-reload/
+[01:04:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_3.PaperweightFaweAdapter as the Bukkit adapter
+[01:04:14] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[01:04:14] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[01:04:14] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
+[01:04:14] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
+[01:04:14] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[01:04:14] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[01:04:14] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[01:04:14] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[01:04:14] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[01:04:14] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[01:04:14] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
+[01:04:14] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[01:04:14] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[01:04:14] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[01:04:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655)
+[01:04:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604)
+[01:04:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1148)
+[01:04:14] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1038)
+[01:04:14] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[01:04:14] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+[01:04:14] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:355)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:342)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344)
+[01:04:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[01:04:14] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:04:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[01:04:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[01:04:15] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[01:04:15] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[01:04:15] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[01:04:15] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[01:04:15] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[01:04:15] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[01:04:15] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:04:15] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:04:15] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[01:04:15] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:04:15] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:04:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+143-b560bbd
+[01:04:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:04:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:04:15] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[01:04:15] [Server thread/INFO]: [Essentials] Using locale en
+[01:04:15] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:04:15] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:04:15] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[01:04:15] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[01:04:15] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[01:04:16] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[01:04:16] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[01:04:16] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[01:04:16] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[01:04:16] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[01:04:16] [Paper Async Command Builder Thread Pool - 4/ERROR]: Caught previously unhandled exception :
+[01:04:16] [Paper Async Command Builder Thread Pool - 4/ERROR]: Paper Async Command Builder Thread Pool - 4
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:04:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:04:16] [Server thread/INFO]: [Geyser-Spigot] 
+[01:04:16] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
+[01:04:16] [Server thread/INFO]: [Geyser-Spigot] 
+[01:04:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:04:19] [epollEventLoopGroup-15-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[01:04:19] [Server thread/INFO]: [Geyser-Spigot] Done (3.339s)! Run /geyser help for help!
+[01:04:19] [Server thread/INFO]: xd600yu: Reload complete.
+[01:04:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8816ms or 176 ticks behind
+[01:04:19] [Craft Scheduler Thread - 12 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:04:19] [Craft Scheduler Thread - 10 - Essentials/INFO]: [Essentials] Fetching version information...
+[01:04:27] [Server thread/INFO]: xd600yu issued server command: /mv import lobby normal
+[01:04:55] [Server thread/INFO]: xd600yu lost connection: Disconnected
+[01:04:55] [Server thread/INFO]: xd600yu left the game
+[01:05:38] [Server thread/INFO]: Stopping server
+[01:05:38] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[01:05:38] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[01:05:38] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[01:05:38] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.0-SNAPSHOT
+[01:05:38] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:05:39] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:05:39] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+143-b560bbd
+[01:05:39] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
+[01:05:39] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[01:05:39] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:05:39] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
+[01:05:39] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[01:05:39] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[01:05:39] [Server thread/INFO]: Saving players
+[01:05:39] [Server thread/INFO]: Saving worlds
+[01:05:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[01:05:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:05:39] [WebSocketConnectReadThread-287/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Saved 611 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.25s
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[01:05:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Saved 743 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.21s
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[01:05:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[01:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:05:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:05:39] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[01:05:39] [Server thread/INFO]: All I/O tasks to complete
+[01:05:39] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:05:39] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
