@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1732929084371
-  login: 1732929002741
+  logout: 1732930291323
+  login: 1732930030232
 money: '0'
 logoutlocation:
   world: b1653515-5148-4e33-9241-844cb58fec96
   world-name: world
-  x: 942.3595566748196
-  y: 69.0
-  z: 912.6813791162668
-  yaw: 82.20211791992188
-  pitch: 38.399986267089844
+  x: -116.82844180493016
+  y: 68.0
+  z: -94.81472077833426
+  yaw: -93.74810791015625
+  pitch: -8.549911499023438
 last-account-name: xd600yu
+lastlocation:
+  world: ecc2f0cd-3ed5-4b10-950c-d57c999410c7
+  world-name: lobby
+  x: 0.6710210790689896
+  y: 1.0
+  z: 0.36940205372307855
+  yaw: -87.44976806640625
+  pitch: 78.75032806396484
