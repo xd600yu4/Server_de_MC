@@ -181,3 +181,15 @@ Update at https://www.spigotmc.org/resources/13932/
 [22:06:38] [Server thread/INFO]: xd600yu joined the game
 [22:06:38] [Server thread/INFO]: xd600yu[/127.45.202.141:43515] logged in with entity id 438 at ([lobby]-16.967023799826077, 68.0, 1.300000011920929)
 [22:07:05] [Server thread/INFO]: xd600yu issued server command: /time set day
+[22:10:14] [Server thread/INFO]: [Not Secure] [Server] xd
+[22:12:42] [Server thread/INFO]: xd600yu lost connection: Disconnected
+[22:12:42] [Server thread/INFO]: xd600yu left the game
+[22:13:14] [User Authenticator #3/INFO]: UUID of player xd600yu is ad24774e-c992-3e4c-9e0c-e2e893f74d49
+[22:13:15] [Server thread/INFO]: xd600yu joined the game
+[22:13:15] [Server thread/INFO]: xd600yu[/127.45.202.141:54825] logged in with entity id 1577 at ([lobby]-111.69999998807907, 83.0, 18.221559676792257)
+[22:14:02] [Server thread/INFO]: xd600yu lost connection: Disconnected
+[22:14:02] [Server thread/INFO]: xd600yu left the game
+[22:15:01] [User Authenticator #4/INFO]: UUID of player xd600yu is ad24774e-c992-3e4c-9e0c-e2e893f74d49
+[22:15:02] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:15:02] [Server thread/INFO]: xd600yu joined the game
+[22:15:02] [Server thread/INFO]: xd600yu[/127.45.202.141:55709] logged in with entity id 1722 at ([lobby]-132.650219241663, 95.0, 26.922834508902827)
