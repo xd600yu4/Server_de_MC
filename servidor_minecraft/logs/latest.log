@@ -217,3 +217,63 @@ Update at https://www.spigotmc.org/resources/13932/
 [22:36:32] [Server thread/INFO]: xd600yu has made the advancement [Take Aim]
 [22:38:02] [Server thread/INFO]: xd600yu issued server command: /gm s
 [22:38:58] [Async Chat Thread - #3/INFO]: [Not Secure] <banapeladoboton3> me tengo q ir
+[22:39:04] [Async Chat Thread - #3/INFO]: [Not Secure] <xd600yu> ok bro
+[22:39:09] [Async Chat Thread - #3/INFO]: [Not Secure] <banapeladoboton3> despues vuelvo si seguis aca
+[22:39:11] [Server thread/INFO]: banapeladoboton3 lost connection: Disconnected
+[22:39:11] [Server thread/INFO]: banapeladoboton3 left the game
+[22:39:27] [Server thread/INFO]: xd600yu lost connection: Disconnected
+[22:39:27] [Server thread/INFO]: xd600yu left the game
+[22:40:27] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:41:14] [Server thread/INFO]: Stopping the server
+[22:41:14] [Server thread/INFO]: Stopping server
+[22:41:14] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[22:41:14] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.3
+[22:41:14] [Server thread/INFO]: [SetSpawn] Disabled!
+[22:41:14] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[22:41:14] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[22:41:14] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[22:41:14] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+149-424816e
+[22:41:14] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
+[22:41:14] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[22:41:14] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
+[22:41:14] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[22:41:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:41:14] [Server thread/INFO]: Saving players
+[22:41:15] [Server thread/INFO]: Saving worlds
+[22:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 66 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[22:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[22:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[22:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby]'/minecraft:lobby
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Saved 5 block chunks, 117 entity chunks, 0 poi chunks in world 'lobby' in 0.04s
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'lobby'
+[22:41:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'lobby'
+[22:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[22:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:41:15] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[22:41:15] [Server thread/INFO]: All I/O tasks to complete
+[22:41:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:41:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

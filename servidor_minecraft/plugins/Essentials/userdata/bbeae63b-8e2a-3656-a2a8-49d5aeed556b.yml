@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1734561551627
   login: 1734560754627
 money: '0'
 last-account-name: banapeladoboton3
+logoutlocation:
+  world: b1653515-5148-4e33-9241-844cb58fec96
+  world-name: world
+  x: -447.75533101016714
+  y: 60.51421686320699
+  z: -29.9023216093672
+  yaw: -35.64789962768555
+  pitch: 11.695563316345215
