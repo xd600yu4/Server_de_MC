@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.45.202.141
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734844103358
+  login: 1734844078759
+money: '0'
+last-account-name: xd600yu
+logoutlocation:
+  world: 44de61e0-bd63-4715-80ee-3a1ba067890f
+  world-name: world
+  x: -7.580309412355439
+  y: 73.0
+  z: 1.5380309077146377
+  yaw: -99.00140380859375
+  pitch: 19.19999122619629
