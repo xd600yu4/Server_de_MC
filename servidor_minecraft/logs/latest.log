@@ -152,3 +152,38 @@ Update at https://www.spigotmc.org/resources/13932/
 [22:32:14] [Server thread/INFO]: Named entity Spider['██                '/783, uuid='b827c9b5-ab8e-4fad-ab3d-0c986a53955a', l='ServerLevel[world]', x=145.70, y=65.00, z=0.01, cpos=[9, 0], tl=4442, v=true] died: ██                 was slain by xd600yu ||||||||||
 [22:32:17] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
 [22:32:19] [Async Chat Thread - #6/INFO]: [Not Secure] <Panita5950> puta
+[22:32:31] [Server thread/INFO]: Named entity Creeper['███▌             '/1402, uuid='8611ca7d-1278-4b8a-a20d-fd26fbd4718b', l='ServerLevel[world]', x=153.83, y=64.00, z=8.49, cpos=[9, 0], tl=1732, v=true] died: ███▌              was slain by xd600yu
+[22:32:56] [Server thread/INFO]: Named entity Drowned['███▌             '/1372, uuid='033ad61a-4d68-4e22-a136-b2509eaf45dd', l='ServerLevel[world]', x=150.39, y=64.00, z=6.53, cpos=[9, 0], tl=2357, v=true] died: ███▌              was slain by xd600yu ||||||||||
+[22:33:02] [Server thread/INFO]: Named entity Zombie['███▌             '/1670, uuid='3b5c2c54-89b4-4c37-abc2-0147829e0f9e', l='ServerLevel[world]', x=151.86, y=64.00, z=7.80, cpos=[9, 0], tl=511, v=true] died: ███▌              was slain by xd600yu ||||||||||
+[22:33:40] [Server thread/INFO]: Named entity Skeleton['███▌             '/1693, uuid='3ed3f195-6469-4295-a9cd-18599fb58cda', l='ServerLevel[world]', x=175.37, y=64.00, z=23.79, cpos=[10, 1], tl=1070, v=true] died: ███▌              was slain by xd600yu
+[22:33:48] [Server thread/INFO]: Named entity Spider['█▌                 '/1542, uuid='1c1ea5f4-6230-45af-bd4b-0dcd21202724', l='ServerLevel[world]', x=163.74, y=64.63, z=14.11, cpos=[10, 0], tl=1962, v=true] died: █▌                  was slain by xd600yu ||||||||||
+[22:33:51] [Server thread/INFO]: Named entity Spider['█████▌         '/1773, uuid='4cc6c2c0-4f35-41cd-8a57-a74a08bc4717', l='ServerLevel[world]', x=159.10, y=64.00, z=10.93, cpos=[9, 0], tl=585, v=true] died: █████▌          was slain by xd600yu ||||||||||
+[22:34:07] [Server thread/INFO]: Named entity Zombie['███▌             '/1834, uuid='060c7811-a168-4394-934c-cc079e13fb9f', l='ServerLevel[world]', x=156.49, y=64.00, z=8.82, cpos=[9, 0], tl=342, v=true] died: ███▌              was slain by xd600yu
+[22:34:35] [Server thread/INFO]: Named entity Drowned['███▌             '/871, uuid='6010495a-ae65-4fdc-8380-5aac1dc5816b', l='ServerLevel[world]', x=119.36, y=50.00, z=-6.94, cpos=[7, -1], tl=7124, v=true] died: ███▌              was slain by xd600yu ||||||||||
+[22:34:52] [Server thread/INFO]: Panita5950 has made the advancement [Stone Age]
+[22:35:15] [Server thread/INFO]: Named entity Spider['████▌           '/1816, uuid='27bc4e51-7d17-4195-be24-de8146572132', l='ServerLevel[world]', x=125.21, y=60.42, z=-4.81, cpos=[7, -1], tl=1824, v=true] died: ████▌            was slain by xd600yu ||||||||||
+[22:35:23] [Server thread/INFO]: Named entity Witch['█████          '/2003, uuid='b6a2e1b1-cdb2-4ba7-9f20-573fc3f9b8f3', l='ServerLevel[world]', x=148.70, y=64.00, z=-2.52, cpos=[9, -1], tl=519, v=true] died: █████           was slain by xd600yu
+[22:35:28] [Server thread/INFO]: Named entity Zombie['██                '/1797, uuid='fc8ea525-9f9d-48f3-b054-8b2e2e1551d9', l='ServerLevel[world]', x=145.56, y=64.00, z=-5.45, cpos=[9, -1], tl=2298, v=true] died: ██                 was slain by xd600yu ||||||||||
+[22:35:38] [Server thread/INFO]: Panita5950 has made the advancement [Getting an Upgrade]
+[22:35:44] [Server thread/INFO]: Named entity Spider['█                  '/2070, uuid='c2843c04-eedf-4997-a09e-aba37941f649', l='ServerLevel[world]', x=142.72, y=63.88, z=14.85, cpos=[8, 0], tl=479, v=true] died: █                   was slain by xd600yu
+[22:35:54] [Server thread/INFO]: Named entity Zombie['███▌             '/2113, uuid='371c0bb6-b812-43e2-a195-2e4186b7bc34', l='ServerLevel[world]', x=151.32, y=64.00, z=-0.54, cpos=[9, -1], tl=364, v=true] died: ███▌              was slain by xd600yu
+[22:36:32] [Server thread/INFO]: Named entity Spider['██                '/1774, uuid='f4e2239c-3850-4bab-8eb6-20331b8dbdbe', l='ServerLevel[world]', x=172.52, y=64.63, z=2.47, cpos=[10, 0], tl=3816, v=true] died: ██                 was slain by xd600yu
+[22:36:41] [Server thread/INFO]: Named entity Spider['████▌           '/1874, uuid='86ed5442-8309-4e70-90fa-1b07f47ce7dd', l='ServerLevel[world]', x=190.98, y=64.00, z=24.23, cpos=[11, 1], tl=3058, v=true] died: ████▌            was slain by xd600yu
+[22:37:10] [Server thread/INFO]: Named entity Spider['████▌           '/2107, uuid='42991f5b-48e0-434c-aa3e-eda016591e31', l='ServerLevel[world]', x=203.58, y=65.14, z=79.76, cpos=[12, 4], tl=1976, v=true] died: ████▌            was slain by xd600yu
+[22:37:33] [Async Chat Thread - #8/INFO]: [Not Secure] <Panita5950> dick
+[22:37:38] [Async Chat Thread - #8/INFO]: [Not Secure] <Panita5950> ven
+[22:37:39] [Async Chat Thread - #8/INFO]: [Not Secure] <xd600yu> qpaso
+[22:38:08] [Async Chat Thread - #8/INFO]: [Not Secure] <Panita5950> porque hay botones
+[22:38:17] [Async Chat Thread - #8/INFO]: [Not Secure] <xd600yu> los otros que entraron
+[22:38:23] [Server thread/INFO]: Named entity Pig['██                '/195, uuid='c9ae8c9a-839b-4a1a-b6ca-d6f16387a3d5', l='ServerLevel[world]', x=112.67, y=71.00, z=-100.31, cpos=[7, -7], tl=55028, v=true] died: ██                 was slain by Panita5950
+[22:39:46] [Server thread/INFO]: Named entity Cow['█████          '/59, uuid='6a9f2160-cc34-455d-a80f-053f5b9a319a', l='ServerLevel[world]', x=35.55, y=80.00, z=-87.16, cpos=[2, -6], tl=56793, v=true] died: █████           was slain by Panita5950
+[22:39:53] [Server thread/INFO]: Named entity Cow['█████          '/58, uuid='770a05a4-d4b2-4657-8360-4522bce9b3d9', l='ServerLevel[world]', x=17.55, y=72.00, z=-82.06, cpos=[1, -6], tl=56791, v=true] died: █████           was slain by Panita5950
+[22:40:05] [Server thread/INFO]: Named entity Cow['█████          '/57, uuid='5362a940-977d-4127-a66d-e2331bef7bbf', l='ServerLevel[world]', x=-0.55, y=61.60, z=-85.45, cpos=[-1, -6], tl=57041, v=true] died: █████           was slain by Panita5950
+[22:40:13] [Async Chat Thread - #10/INFO]: [Not Secure] <Panita5950> ha tp
+[22:40:39] [Server thread/INFO]: Named entity Sheep['████            '/60, uuid='e75899f4-2e34-4cb9-87d2-7f9496f4e6f1', l='ServerLevel[world]', x=47.67, y=64.00, z=-56.24, cpos=[2, -4], tl=57669, v=true] died: ████             was slain by Panita5950
+[22:41:05] [Server thread/INFO]: Named entity Sheep['█▌                 '/78, uuid='d5e9767d-c6f2-4545-abc2-317122e8b57c', l='ServerLevel[world]', x=47.58, y=81.25, z=-84.54, cpos=[2, -6], tl=58188, v=true] died: █▌                  was slain by Panita5950
+[22:41:15] [Server thread/INFO]: Named entity Sheep['████            '/79, uuid='e10600e2-04bf-4a70-8768-82f7bdb47e38', l='ServerLevel[world]', x=28.05, y=69.00, z=-73.10, cpos=[1, -5], tl=58446, v=true] died: ████             was slain by Panita5950
+[22:41:53] [Async Chat Thread - #12/INFO]: [Not Secure] <xd600yu> encontre un portal
+[22:41:57] [Async Chat Thread - #12/INFO]: [Not Secure] <Panita5950> donde estas
+[22:42:04] [Async Chat Thread - #12/INFO]: [Not Secure] <Panita5950> te perdi de vista
+[22:42:09] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
