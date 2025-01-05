@@ -1,440 +1,157 @@
-[22:22:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[22:22:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[22:22:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:22:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[22:22:34] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+[23:33:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[23:33:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[23:33:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:33:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[23:33:37] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
  - Essentials (2.21.0-dev+151-f2af952), FastAsyncWorldEdit (2.12.3-SNAPSHOT-986;a2a5545), Geyser-Spigot (2.6.0-SNAPSHOT), HealthBar (1.8.3), Multiverse-Core (4.3.14), SetSpawn (5.3), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e)), sleep-most (5.5.1)
-[22:22:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:22:41] [ServerMain/INFO]: Loaded 1337 recipes
-[22:22:41] [ServerMain/INFO]: Loaded 1448 advancements
-[22:22:41] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[22:22:41] [Server thread/INFO]: Loading properties
-[22:22:41] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[22:22:42] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:22:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:22:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:22:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[22:22:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:22:44] [Server thread/INFO]: Default game type: SURVIVAL
-[22:22:44] [Server thread/INFO]: Generating keypair
-[22:22:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:22:44] [Server thread/INFO]: Using epoll channel type
-[22:22:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:22:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[22:22:46] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[22:22:55] [Server thread/WARN]: Legacy plugin HealthBar v1.8.3 does not specify an api-version.
-[22:22:55] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[22:22:56] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[22:22:56] [Server thread/INFO]: [floodgate] Took 1,024ms to boot Floodgate
-[22:22:56] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
-[22:22:56] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
-[22:22:56] [Server thread/WARN]: 
+[23:33:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:33:43] [ServerMain/INFO]: Loaded 1337 recipes
+[23:33:43] [ServerMain/INFO]: Loaded 1448 advancements
+[23:33:43] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[23:33:43] [Server thread/INFO]: Loading properties
+[23:33:43] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[23:33:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:33:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:33:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:33:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[23:33:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[23:33:45] [Server thread/INFO]: Default game type: SURVIVAL
+[23:33:45] [Server thread/INFO]: Generating keypair
+[23:33:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:33:45] [Server thread/INFO]: Using epoll channel type
+[23:33:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:33:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[23:33:46] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[23:33:53] [Server thread/WARN]: Legacy plugin HealthBar v1.8.3 does not specify an api-version.
+[23:33:53] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[23:33:54] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[23:33:54] [Server thread/INFO]: [floodgate] Took 744ms to boot Floodgate
+[23:33:54] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
+[23:33:54] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[23:33:54] [Server thread/WARN]: 
 **********************************************
 ** You are using the Spigot-mapped FAWE jar on a modern Paper version.
 ** This will result in slower first-run times and wasted disk space from plugin remapping.
 ** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
 **********************************************
-[22:22:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@273d02e1]
-[22:22:57] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
-[22:22:57] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[22:22:58] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[22:22:58] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[22:22:58] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.1
-[22:22:58] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.3
-[22:22:58] [Server thread/INFO]: [HealthBar] Loading server plugin HealthBar v1.8.3
-[22:22:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:22:58] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
-[22:22:58] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[22:22:58] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[22:22:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[22:22:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[22:22:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_3.PaperweightFaweAdapter as the Bukkit adapter
-[22:23:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:23:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:23:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:23:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:23:00] [Server thread/INFO]: Preparing level "world"
-[22:23:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:23:01] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 25 build(s) out of date.
+[23:33:55] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4ab366e3]
+[23:33:55] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[23:33:55] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[23:33:55] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[23:33:55] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[23:33:55] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.1
+[23:33:55] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.3
+[23:33:55] [Server thread/INFO]: [HealthBar] Loading server plugin HealthBar v1.8.3
+[23:33:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:33:55] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[23:33:55] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[23:33:55] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[23:33:55] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:33:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:33:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_3.PaperweightFaweAdapter as the Bukkit adapter
+[23:33:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:33:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:33:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:33:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:33:57] [Server thread/INFO]: Preparing level "world"
+[23:33:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:33:57] [Server thread/INFO]: Preparing spawn area: 0%
+[23:33:57] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 25 build(s) out of date.
 You are running build 986, the latest version is build 1011.
 Update at https://www.spigotmc.org/resources/13932/
-[22:23:02] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:02] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:02] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:02] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[22:23:03] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 403.1ms
-[22:23:03] [Server thread/INFO]: Preparing spawn area: 2%
-[22:23:03] [Server thread/INFO]: Preparing spawn area: 2%
-[22:23:03] [Server thread/INFO]: Preparing spawn area: 2%
-[22:23:03] [Server thread/INFO]: Time elapsed: 2719 ms
-[22:23:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:23:03] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:04] [Server thread/INFO]: Preparing spawn area: 53%
-[22:23:04] [Server thread/INFO]: Time elapsed: 719 ms
-[22:23:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:23:04] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:04] [Server thread/INFO]: Time elapsed: 111 ms
-[22:23:04] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[22:23:05] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
-[22:23:05] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[22:23:05] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[22:23:05] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[22:23:06] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[22:23:06] [Server thread/INFO]: [Essentials] Using locale en
-[22:23:06] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[22:23:06] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[22:23:06] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[22:23:06] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
-[22:23:06] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[22:23:06] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[22:23:06] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[22:23:06] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[22:23:06] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[22:23:06] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[22:23:07] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.1
-[22:23:07] [Server thread/INFO]: [sleep-most] Hooked to Essentials
-[22:23:07] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.3
-[22:23:07] [Server thread/INFO]: [SetSpawn] Enabled!
-[22:23:07] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.3*
-[22:23:07] [Server thread/INFO]: [spark] Starting background profiler...
-[22:23:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[22:23:08] [Server thread/INFO]: [Geyser-Spigot] 
-[22:23:08] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b734 (git-master-64c7adc)
-[22:23:08] [Server thread/INFO]: [Geyser-Spigot] 
-[22:23:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[22:23:12] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[22:23:12] [Server thread/INFO]: [Geyser-Spigot] Done (4.385s)! Run /geyser help for help!
-[22:23:12] [Server thread/WARN]: [Geyser-Spigot] Your server software does not support the Java version that Geyser requires (1.21.4). Please install ViaVersion (https://ci.viaversion.com/job/ViaVersion/) or update your server software!
-[22:23:12] [Server thread/INFO]: Done preparing level "world" (12.373s)
-[22:23:12] [Server thread/INFO]: Running delayed init tasks
-[22:23:12] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
-[22:23:12] [Server thread/INFO]: Done (40.817s)! For help, type "help"
-[22:23:13] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
-[22:23:13] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[22:24:12] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:25:33] [User Authenticator #0/INFO]: UUID of player xd600yu is ad24774e-c992-3e4c-9e0c-e2e893f74d49
-[22:25:34] [Server thread/INFO]: xd600yu joined the game
-[22:25:34] [Server thread/INFO]: xd600yu[/127.45.202.141:57275] logged in with entity id 22 at ([world]-7.580309412355439, 73.0, 1.5380309077146377)
-[22:25:42] [User Authenticator #0/INFO]: UUID of player Panita5950 is d21a19af-4023-3872-858d-da5446f3a683
-[22:25:44] [Server thread/INFO]: Panita5950 joined the game
-[22:25:44] [Server thread/INFO]: Panita5950[/127.137.85.205:36501] logged in with entity id 293 at ([world]-2.5, 79.0, 8.5)
-[22:26:00] [Async Chat Thread - #0/INFO]: [Not Secure] <Panita5950> pera
-[22:26:08] [Async Chat Thread - #0/INFO]: [Not Secure] <Panita5950> pongo los shaders
-[22:26:23] [Server thread/INFO]: Named entity Chicken['██▌               '/5, uuid='eb803c09-8529-4dee-be78-e04ee73c3773', l='ServerLevel[world]', x=-31.55, y=79.00, z=-4.88, cpos=[-2, -1], tl=38126, v=true] died: ██▌                was slain by Ocelot
-[22:26:50] [Server thread/INFO]: Panita5950 lost connection: Timed out
-[22:26:50] [Server thread/INFO]: Panita5950 left the game
-[22:26:55] [Server thread/INFO]: xd600yu has made the advancement [Stone Age]
-[22:27:03] [User Authenticator #1/INFO]: UUID of player Panita5950 is d21a19af-4023-3872-858d-da5446f3a683
-[22:27:04] [Server thread/INFO]: Panita5950 joined the game
-[22:27:04] [Server thread/INFO]: Panita5950[/127.137.85.205:39277] logged in with entity id 506 at ([world]1.331579366330669, 72.0, 12.292270582134124)
-[22:27:25] [Server thread/INFO]: xd600yu has made the advancement [Getting an Upgrade]
-[22:27:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Panita5950> donde ests
-[22:27:38] [Async Chat Thread - #2/INFO]: [Not Secure] <Panita5950> ni siquiera espera
-[22:28:44] [Server thread/INFO]: xd600yu has made the advancement [Monster Hunter]
-[22:28:44] [Server thread/INFO]: Named entity Creeper['███▌             '/766, uuid='8f31a0fb-2bac-4382-a7a9-832fdfa717ee', l='ServerLevel[world]', x=155.49, y=64.00, z=-7.79, cpos=[9, -1], tl=321, v=true] died: ███▌              was slain by xd600yu
-[22:28:51] [Server thread/INFO]: Named entity Skeleton['███▌             '/740, uuid='1b766f21-2e99-4115-b1e2-3afe8e7231a3', l='ServerLevel[world]', x=143.21, y=64.00, z=9.80, cpos=[8, 0], tl=578, v=true] died: ███▌              was slain by xd600yu
-[22:29:00] [Async Chat Thread - #4/INFO]: [Not Secure] <Panita5950> espera
-[22:29:07] [Server thread/INFO]: Named entity Zombie['███▌             '/884, uuid='9d0225e5-7795-4499-8da3-685808fd54e2', l='ServerLevel[world]', x=161.94, y=64.00, z=10.50, cpos=[10, 0], tl=487, v=true] died: ███▌              was slain by xd600yu
-[22:29:12] [Server thread/INFO]: Named entity Zombie['███▌             '/863, uuid='4153ef50-ebe6-4883-860b-4e58db63cf64', l='ServerLevel[world]', x=169.00, y=66.00, z=10.07, cpos=[10, 0], tl=671, v=true] died: ███▌              was slain by xd600yu
-[22:29:15] [Server thread/INFO]: Named entity Zombie['███              '/885, uuid='a34a76b7-b990-4646-8f47-29412191a36f', l='ServerLevel[world]', x=170.82, y=64.00, z=5.76, cpos=[10, 0], tl=656, v=true] died: ███               was slain by xd600yu
-[22:29:36] [Server thread/INFO]: Named entity Skeleton['███▌             '/812, uuid='d805495e-c4d5-4d95-9cc4-84eb10e4369d', l='ServerLevel[world]', x=146.99, y=64.00, z=-18.03, cpos=[9, -2], tl=1215, v=true] died: ███▌              was slain by xd600yu
-[22:30:01] [Async Chat Thread - #6/INFO]: [Not Secure] <Panita5950> donde estas
-[22:30:15] [Server thread/INFO]: Named entity Spider['██                '/1021, uuid='0e83327c-0393-48e2-b0e7-939e51d91043', l='ServerLevel[world]', x=143.84, y=64.94, z=-2.14, cpos=[8, -1], tl=1057, v=true] died: ██                 was slain by xd600yu ||||||||||
-[22:30:37] [Server thread/INFO]: Panita5950 was slain by Zombie
-[22:30:44] [Async Chat Thread - #6/INFO]: [Not Secure] <xd600yu> x
-[22:30:51] [Server thread/INFO]: Named entity Zombie['██████        '/1236, uuid='8674bbf1-cb50-41ab-b03c-1326f60ba093', l='ServerLevel[world]', x=118.60, y=50.00, z=-8.55, cpos=[7, -1], tl=573, v=true] died: ██████         was slain by xd600yu
-[22:31:07] [Server thread/INFO]: Named entity Skeleton['▌                   '/1218, uuid='27444614-4093-41c0-a976-82697f3a7672', l='ServerLevel[world]', x=52.75, y=68.00, z=37.18, cpos=[3, 2], tl=1014, v=true] died: ▌                    was shot by ████████    
-[22:31:07] [Async Chat Thread - #6/INFO]: [Not Secure] <xd600yu> deja te hago tp
-[22:31:14] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[22:31:29] [Async Chat Thread - #6/INFO]: [Not Secure] <Panita5950> poque no espera
-[22:31:53] [Server thread/INFO]: Named entity Zombie['▌                   '/1240, uuid='6ac3dd05-b88f-41f8-bf67-230015be5b1f', l='ServerLevel[world]', x=141.23, y=64.00, z=0.83, cpos=[8, 0], tl=1815, v=true] died: ▌                    was slain by xd600yu
-[22:32:12] [Server thread/INFO]: Panita5950 died
-[22:32:14] [Server thread/INFO]: Named entity Spider['██                '/783, uuid='b827c9b5-ab8e-4fad-ab3d-0c986a53955a', l='ServerLevel[world]', x=145.70, y=65.00, z=0.01, cpos=[9, 0], tl=4442, v=true] died: ██                 was slain by xd600yu ||||||||||
-[22:32:17] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[22:32:19] [Async Chat Thread - #6/INFO]: [Not Secure] <Panita5950> puta
-[22:32:31] [Server thread/INFO]: Named entity Creeper['███▌             '/1402, uuid='8611ca7d-1278-4b8a-a20d-fd26fbd4718b', l='ServerLevel[world]', x=153.83, y=64.00, z=8.49, cpos=[9, 0], tl=1732, v=true] died: ███▌              was slain by xd600yu
-[22:32:56] [Server thread/INFO]: Named entity Drowned['███▌             '/1372, uuid='033ad61a-4d68-4e22-a136-b2509eaf45dd', l='ServerLevel[world]', x=150.39, y=64.00, z=6.53, cpos=[9, 0], tl=2357, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[22:33:02] [Server thread/INFO]: Named entity Zombie['███▌             '/1670, uuid='3b5c2c54-89b4-4c37-abc2-0147829e0f9e', l='ServerLevel[world]', x=151.86, y=64.00, z=7.80, cpos=[9, 0], tl=511, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[22:33:40] [Server thread/INFO]: Named entity Skeleton['███▌             '/1693, uuid='3ed3f195-6469-4295-a9cd-18599fb58cda', l='ServerLevel[world]', x=175.37, y=64.00, z=23.79, cpos=[10, 1], tl=1070, v=true] died: ███▌              was slain by xd600yu
-[22:33:48] [Server thread/INFO]: Named entity Spider['█▌                 '/1542, uuid='1c1ea5f4-6230-45af-bd4b-0dcd21202724', l='ServerLevel[world]', x=163.74, y=64.63, z=14.11, cpos=[10, 0], tl=1962, v=true] died: █▌                  was slain by xd600yu ||||||||||
-[22:33:51] [Server thread/INFO]: Named entity Spider['█████▌         '/1773, uuid='4cc6c2c0-4f35-41cd-8a57-a74a08bc4717', l='ServerLevel[world]', x=159.10, y=64.00, z=10.93, cpos=[9, 0], tl=585, v=true] died: █████▌          was slain by xd600yu ||||||||||
-[22:34:07] [Server thread/INFO]: Named entity Zombie['███▌             '/1834, uuid='060c7811-a168-4394-934c-cc079e13fb9f', l='ServerLevel[world]', x=156.49, y=64.00, z=8.82, cpos=[9, 0], tl=342, v=true] died: ███▌              was slain by xd600yu
-[22:34:35] [Server thread/INFO]: Named entity Drowned['███▌             '/871, uuid='6010495a-ae65-4fdc-8380-5aac1dc5816b', l='ServerLevel[world]', x=119.36, y=50.00, z=-6.94, cpos=[7, -1], tl=7124, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[22:34:52] [Server thread/INFO]: Panita5950 has made the advancement [Stone Age]
-[22:35:15] [Server thread/INFO]: Named entity Spider['████▌           '/1816, uuid='27bc4e51-7d17-4195-be24-de8146572132', l='ServerLevel[world]', x=125.21, y=60.42, z=-4.81, cpos=[7, -1], tl=1824, v=true] died: ████▌            was slain by xd600yu ||||||||||
-[22:35:23] [Server thread/INFO]: Named entity Witch['█████          '/2003, uuid='b6a2e1b1-cdb2-4ba7-9f20-573fc3f9b8f3', l='ServerLevel[world]', x=148.70, y=64.00, z=-2.52, cpos=[9, -1], tl=519, v=true] died: █████           was slain by xd600yu
-[22:35:28] [Server thread/INFO]: Named entity Zombie['██                '/1797, uuid='fc8ea525-9f9d-48f3-b054-8b2e2e1551d9', l='ServerLevel[world]', x=145.56, y=64.00, z=-5.45, cpos=[9, -1], tl=2298, v=true] died: ██                 was slain by xd600yu ||||||||||
-[22:35:38] [Server thread/INFO]: Panita5950 has made the advancement [Getting an Upgrade]
-[22:35:44] [Server thread/INFO]: Named entity Spider['█                  '/2070, uuid='c2843c04-eedf-4997-a09e-aba37941f649', l='ServerLevel[world]', x=142.72, y=63.88, z=14.85, cpos=[8, 0], tl=479, v=true] died: █                   was slain by xd600yu
-[22:35:54] [Server thread/INFO]: Named entity Zombie['███▌             '/2113, uuid='371c0bb6-b812-43e2-a195-2e4186b7bc34', l='ServerLevel[world]', x=151.32, y=64.00, z=-0.54, cpos=[9, -1], tl=364, v=true] died: ███▌              was slain by xd600yu
-[22:36:32] [Server thread/INFO]: Named entity Spider['██                '/1774, uuid='f4e2239c-3850-4bab-8eb6-20331b8dbdbe', l='ServerLevel[world]', x=172.52, y=64.63, z=2.47, cpos=[10, 0], tl=3816, v=true] died: ██                 was slain by xd600yu
-[22:36:41] [Server thread/INFO]: Named entity Spider['████▌           '/1874, uuid='86ed5442-8309-4e70-90fa-1b07f47ce7dd', l='ServerLevel[world]', x=190.98, y=64.00, z=24.23, cpos=[11, 1], tl=3058, v=true] died: ████▌            was slain by xd600yu
-[22:37:10] [Server thread/INFO]: Named entity Spider['████▌           '/2107, uuid='42991f5b-48e0-434c-aa3e-eda016591e31', l='ServerLevel[world]', x=203.58, y=65.14, z=79.76, cpos=[12, 4], tl=1976, v=true] died: ████▌            was slain by xd600yu
-[22:37:33] [Async Chat Thread - #8/INFO]: [Not Secure] <Panita5950> dick
-[22:37:38] [Async Chat Thread - #8/INFO]: [Not Secure] <Panita5950> ven
-[22:37:39] [Async Chat Thread - #8/INFO]: [Not Secure] <xd600yu> qpaso
-[22:38:08] [Async Chat Thread - #8/INFO]: [Not Secure] <Panita5950> porque hay botones
-[22:38:17] [Async Chat Thread - #8/INFO]: [Not Secure] <xd600yu> los otros que entraron
-[22:38:23] [Server thread/INFO]: Named entity Pig['██                '/195, uuid='c9ae8c9a-839b-4a1a-b6ca-d6f16387a3d5', l='ServerLevel[world]', x=112.67, y=71.00, z=-100.31, cpos=[7, -7], tl=55028, v=true] died: ██                 was slain by Panita5950
-[22:39:46] [Server thread/INFO]: Named entity Cow['█████          '/59, uuid='6a9f2160-cc34-455d-a80f-053f5b9a319a', l='ServerLevel[world]', x=35.55, y=80.00, z=-87.16, cpos=[2, -6], tl=56793, v=true] died: █████           was slain by Panita5950
-[22:39:53] [Server thread/INFO]: Named entity Cow['█████          '/58, uuid='770a05a4-d4b2-4657-8360-4522bce9b3d9', l='ServerLevel[world]', x=17.55, y=72.00, z=-82.06, cpos=[1, -6], tl=56791, v=true] died: █████           was slain by Panita5950
-[22:40:05] [Server thread/INFO]: Named entity Cow['█████          '/57, uuid='5362a940-977d-4127-a66d-e2331bef7bbf', l='ServerLevel[world]', x=-0.55, y=61.60, z=-85.45, cpos=[-1, -6], tl=57041, v=true] died: █████           was slain by Panita5950
-[22:40:13] [Async Chat Thread - #10/INFO]: [Not Secure] <Panita5950> ha tp
-[22:40:39] [Server thread/INFO]: Named entity Sheep['████            '/60, uuid='e75899f4-2e34-4cb9-87d2-7f9496f4e6f1', l='ServerLevel[world]', x=47.67, y=64.00, z=-56.24, cpos=[2, -4], tl=57669, v=true] died: ████             was slain by Panita5950
-[22:41:05] [Server thread/INFO]: Named entity Sheep['█▌                 '/78, uuid='d5e9767d-c6f2-4545-abc2-317122e8b57c', l='ServerLevel[world]', x=47.58, y=81.25, z=-84.54, cpos=[2, -6], tl=58188, v=true] died: █▌                  was slain by Panita5950
-[22:41:15] [Server thread/INFO]: Named entity Sheep['████            '/79, uuid='e10600e2-04bf-4a70-8768-82f7bdb47e38', l='ServerLevel[world]', x=28.05, y=69.00, z=-73.10, cpos=[1, -5], tl=58446, v=true] died: ████             was slain by Panita5950
-[22:41:53] [Async Chat Thread - #12/INFO]: [Not Secure] <xd600yu> encontre un portal
-[22:41:57] [Async Chat Thread - #12/INFO]: [Not Secure] <Panita5950> donde estas
-[22:42:04] [Async Chat Thread - #12/INFO]: [Not Secure] <Panita5950> te perdi de vista
-[22:42:09] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[22:42:49] [Async Chat Thread - #12/INFO]: [Not Secure] <Panita5950> tienes carbon
-[22:43:13] [Server thread/INFO]: xd600yu has made the advancement [Acquire Hardware]
-[22:43:25] [Server thread/INFO]: xd600yu has made the advancement [Isn't It Iron Pick]
-[22:43:57] [Async Chat Thread - #14/INFO]: [Not Secure] <Panita5950> awebo tengo comida
-[22:44:51] [Async Chat Thread - #14/INFO]: [Not Secure] <Panita5950> donde estas
-[22:45:01] [Async Chat Thread - #14/INFO]: [Not Secure] <xd600yu> consiguiendo comida
-[22:45:08] [Async Chat Thread - #14/INFO]: [Not Secure] <Panita5950> yo ya tengo
-[22:45:10] [Async Chat Thread - #14/INFO]: [Not Secure] <Panita5950> :v
-[22:46:16] [Server thread/INFO]: Named entity Sheep['█████          '/4687, uuid='ae193916-b8b0-4b40-92ed-ccbe837a3951', l='ServerLevel[world]', x=-243.98, y=110.00, z=-364.45, cpos=[-16, -23], tl=36, v=true] died: █████           was slain by Wolf
-[22:46:18] [Server thread/INFO]: Named entity Sheep['█████          '/4690, uuid='20a9fc55-36c0-49b4-b98b-117e0791e833', l='ServerLevel[world]', x=-247.98, y=107.00, z=-365.31, cpos=[-16, -23], tl=75, v=true] died: █████           was slain by Wolf
-[22:46:20] [Server thread/INFO]: Named entity Sheep['█████          '/4688, uuid='d6254683-96ee-4fce-9760-4132b98cdf04', l='ServerLevel[world]', x=-247.29, y=108.00, z=-363.47, cpos=[-16, -23], tl=112, v=true] died: █████           was slain by Wolf
-[22:46:27] [Server thread/INFO]: Named entity Sheep['█████          '/4689, uuid='31121fa4-6f0d-4cc9-988c-5193d08b1e06', l='ServerLevel[world]', x=-243.74, y=113.00, z=-357.23, cpos=[-16, -23], tl=246, v=true] died: █████           was slain by Wolf
-[22:47:26] [Async Chat Thread - #16/INFO]: [Not Secure] <xd600yu> tienes cama?
-[22:47:31] [Async Chat Thread - #16/INFO]: [Not Secure] <Panita5950> si
-[22:47:43] [Async Chat Thread - #16/INFO]: [Not Secure] <xd600yu> duerme pa saltar la noche
-[22:47:53] [Server thread/INFO]: Panita5950 has made the advancement [Sweet Dreams]
-[22:49:52] [Async Chat Thread - #18/INFO]: [Not Secure] <xd600yu> brooo no hay minas
-[22:50:25] [Async Chat Thread - #18/INFO]: [Not Secure] <Panita5950> encontre un
-[22:50:37] [Async Chat Thread - #18/INFO]: [Not Secure] <xd600yu> ?
-[22:50:47] [Async Chat Thread - #18/INFO]: [Not Secure] <Panita5950> encontre una mina
-[22:51:03] [Async Chat Thread - #18/INFO]: [Not Secure] <xd600yu> grande?
-[22:51:15] [Server thread/INFO]: Panita5950 has made the advancement [Monster Hunter]
-[22:51:15] [Server thread/INFO]: Named entity Zombie['███              '/6552, uuid='a23b35ac-8639-4c8d-b16a-bb824ef661a4', l='ServerLevel[world]', x=-92.70, y=63.00, z=-418.30, cpos=[-6, -27], tl=1420, v=true] died: ███               was slain by Panita5950
-[22:51:21] [Async Chat Thread - #18/INFO]: [Not Secure] <Panita5950> pequeña
-[22:53:02] [Server thread/INFO]: Named entity Pig['█                  '/4440, uuid='e0417a11-de23-4ed2-8118-f78b26c28373', l='ServerLevel[world]', x=-201.66, y=78.92, z=-454.52, cpos=[-13, -29], tl=7622, v=true] died: █                   was slain by Panita5950
-[22:53:06] [Server thread/INFO]: Named entity Pig['█                  '/4442, uuid='67bf882b-7c8b-4917-9059-25aa2d68b2f9', l='ServerLevel[world]', x=-207.72, y=78.77, z=-450.66, cpos=[-13, -29], tl=7690, v=true] died: █                   was slain by Panita5950
-[22:53:12] [Server thread/INFO]: Named entity Pig['█                  '/4439, uuid='7be2605e-c08a-4e26-9c4f-8522ee3fd9d8', l='ServerLevel[world]', x=-203.54, y=82.77, z=-450.79, cpos=[-13, -29], tl=7824, v=true] died: █                   was slain by Panita5950
-[22:53:17] [Server thread/INFO]: Named entity Cow['█                  '/4537, uuid='f30374d5-a839-4398-9f8d-c4b4075fd121', l='ServerLevel[world]', x=-206.45, y=76.00, z=-455.13, cpos=[-13, -29], tl=6245, v=true] died: █                   was slain by Panita5950
-[22:53:27] [Server thread/INFO]: Named entity Cow['█                  '/4539, uuid='20d6a256-1426-4931-bdb7-2e13176ea7cc', l='ServerLevel[world]', x=-221.44, y=78.00, z=-441.25, cpos=[-14, -28], tl=6456, v=true] died: █                   was slain by Panita5950
-[22:53:34] [Server thread/INFO]: Named entity Cow['█                  '/4538, uuid='c41e1767-6b8d-4d13-b69d-92047be7f400', l='ServerLevel[world]', x=-207.96, y=86.00, z=-439.96, cpos=[-13, -28], tl=6584, v=true] died: █                   was slain by Panita5950
-[22:53:46] [Server thread/INFO]: Named entity Cow['█                  '/8360, uuid='ea0c86b5-7a7d-40d5-aa76-f5d7e02560d5', l='ServerLevel[world]', x=854.41, y=67.92, z=-806.69, cpos=[53, -51], tl=1157, v=true] died: █                   was slain by xd600yu
-[22:53:53] [Server thread/INFO]: Named entity Pig['██████▌       '/4441, uuid='0e37e013-71d7-4e23-8e7d-1ebfdc081191', l='ServerLevel[world]', x=-184.51, y=107.00, z=-440.55, cpos=[-12, -28], tl=8641, v=true] died: ██████▌        was slain by Panita5950
-[22:54:25] [Server thread/INFO]: Named entity Cow['█                  '/4703, uuid='72a93997-29c5-488a-94aa-2a35f09a4137', l='ServerLevel[world]', x=-247.36, y=71.00, z=-486.33, cpos=[-16, -31], tl=4886, v=true] died: █                   was slain by Panita5950
-[22:54:29] [Server thread/INFO]: Named entity Cow['█                  '/4705, uuid='70e2dbcc-b1f8-4ff2-a83a-3d9bcff313b0', l='ServerLevel[world]', x=-248.54, y=67.00, z=-476.11, cpos=[-16, -30], tl=6083, v=true] died: █                   was slain by Panita5950
-[22:54:35] [Server thread/INFO]: Named entity Cow['█                  '/4704, uuid='32396898-f04d-4d72-8bd3-a624d6446f56', l='ServerLevel[world]', x=-239.21, y=65.00, z=-473.01, cpos=[-15, -30], tl=5105, v=true] died: █                   was slain by Panita5950
-[22:55:25] [Async Chat Thread - #20/INFO]: [Not Secure] <Panita5950> encontre otro portal
-[22:55:40] [Async Chat Thread - #20/INFO]: [Not Secure] <xd600yu> ok
-[22:56:04] [Async Chat Thread - #20/INFO]: [Not Secure] <Panita5950> alfin una mina grande
-[22:56:23] [Async Chat Thread - #20/INFO]: [Not Secure] <xd600yu> yo encontre una tambien
-[22:57:08] [Server thread/INFO]: Named entity Spider['████▌           '/9817, uuid='51e9fe4b-1eac-4f72-a8ef-c01b4034969d', l='ServerLevel[world]', x=833.28, y=38.96, z=-737.12, cpos=[52, -47], tl=2717, v=true] died: ████▌            was slain by xd600yu
-[22:57:19] [Server thread/INFO]: Named entity Zombie['█▌                 '/10164, uuid='c23d7f97-738d-430d-a0bd-549949970a02', l='ServerLevel[world]', x=833.74, y=39.25, z=-728.41, cpos=[52, -46], tl=2431, v=true] died: █▌                  was slain by xd600yu
-[22:58:10] [Server thread/INFO]: xd600yu has made the advancement [Hot Stuff]
-[22:58:13] [Server thread/INFO]: xd600yu |||||||||| has made the advancement [Not Today, Thank You]
-[22:58:17] [Server thread/INFO]: Named entity Skeleton['██                '/11006, uuid='cfd7df38-7a84-4d03-a43a-c471b23b2f07', l='ServerLevel[world]', x=824.30, y=37.00, z=-727.70, cpos=[51, -46], tl=678, v=true] died: ██                 was slain by xd600yu ||||||||||
-[22:58:36] [Async Chat Thread - #22/INFO]: [Not Secure] <Panita5950> donde estas
-[22:58:46] [Async Chat Thread - #22/INFO]: [Not Secure] <xd600yu> lejos
-[22:58:50] [Async Chat Thread - #22/INFO]: [Not Secure] <Panita5950> hasme tp a vos
-[22:59:01] [Async Chat Thread - #22/INFO]: [Not Secure] <Panita5950> ya tengo un buen de comida
-[22:59:07] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[22:59:45] [Server thread/INFO]: Named entity Skeleton['███▌             '/11514, uuid='7bd39c22-6dc9-445c-84d0-2aac669e8d57', l='ServerLevel[world]', x=880.30, y=46.00, z=-778.80, cpos=[55, -49], tl=895, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[22:59:48] [Server thread/INFO]: Named entity Zombie['███▌             '/11513, uuid='2e3c8082-d67b-448c-83fa-d60fcdde4855', l='ServerLevel[world]', x=879.69, y=48.92, z=-777.40, cpos=[54, -49], tl=953, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[22:59:58] [Server thread/INFO]: Named entity Zombie['███▌             '/10757, uuid='5b4d3466-76f0-4eb5-b2e2-240fac4459b3', l='ServerLevel[world]', x=903.99, y=31.00, z=-786.56, cpos=[56, -50], tl=3865, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[23:00:06] [Server thread/INFO]: Named entity Skeleton['██                '/11505, uuid='5109c56b-af1f-47c5-a3d8-b257b65d632e', l='ServerLevel[world]', x=904.30, y=20.00, z=-797.27, cpos=[56, -50], tl=1317, v=true] died: ██                 was slain by Panita5950 ||||||||||
-[23:01:29] [Server thread/INFO]: Named entity Skeleton['█████▌         '/11765, uuid='82ee77ee-7bdf-4471-9d81-f4af802486e3', l='ServerLevel[world]', x=943.01, y=-37.00, z=-815.30, cpos=[58, -51], tl=1657, v=true] died: █████▌          was slain by xd600yu ||||||||||
-[23:01:43] [Server thread/INFO]: Named entity Zombie['████            '/11769, uuid='5a935626-073d-40da-9529-84c1e061e810', l='ServerLevel[world]', x=929.90, y=-30.00, z=-819.52, cpos=[58, -52], tl=1920, v=true] died: ████             was slain by xd600yu ||||||||||
-[23:01:46] [Async Chat Thread - #24/INFO]: [Not Secure] <Panita5950> tienes carbon
-[23:01:52] [Server thread/INFO]: Named entity Zombie['███▌             '/11996, uuid='b53221db-c8f3-403f-8c70-bc10ded6806b', l='ServerLevel[world]', x=934.94, y=-34.00, z=-814.23, cpos=[58, -51], tl=349, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[23:01:55] [Async Chat Thread - #24/INFO]: [Not Secure] <xd600yu> si
-[23:02:09] [Server thread/INFO]: Named entity Skeleton['███▌             '/11993, uuid='d8a9c617-466a-44ed-8fd2-ee5bc81cab1d', l='ServerLevel[world]', x=924.63, y=-45.00, z=-780.06, cpos=[57, -49], tl=726, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[23:02:13] [Server thread/INFO]: Named entity Zombie['███▌             '/11621, uuid='312c4e74-dd1b-4050-98cc-707f6685718d', l='ServerLevel[world]', x=925.26, y=-45.00, z=-780.32, cpos=[57, -49], tl=3081, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[23:02:22] [Server thread/INFO]: xd600yu has made the advancement [Diamonds!]
-[23:02:37] [Async Chat Thread - #24/INFO]: [Not Secure] <Panita5950> pae
-[23:02:51] [Async Chat Thread - #24/INFO]: [Not Secure] <Panita5950> pase el crbon
-[23:03:13] [Server thread/INFO]: Named entity Skeleton['█                  '/11499, uuid='cda9280d-0773-428f-a915-01725d29de33', l='ServerLevel[world]', x=922.64, y=-33.00, z=-816.70, cpos=[57, -52], tl=5078, v=true] died: █                   was slain by xd600yu ||||||||||
-[23:03:42] [Async Chat Thread - #24/INFO]: [Not Secure] <Panita5950> pedaso de guey
-[23:03:50] [Async Chat Thread - #24/INFO]: [Not Secure] <xd600yu> ven aca estoy
-[23:03:52] [Async Chat Thread - #24/INFO]: [Not Secure] <Panita5950> donde estas
-[23:04:06] [Async Chat Thread - #24/INFO]: [Not Secure] <Panita5950> has tp
-[23:04:12] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:04:48] [Server thread/INFO]: Panita5950 has made the advancement [Acquire Hardware]
-[23:05:06] [Async Chat Thread - #24/INFO]: [Not Secure] <Panita5950> awebo ya me alcanza para media armadura
-[23:05:21] [Server thread/INFO]: Panita5950 has made the advancement [Isn't It Iron Pick]
-[23:06:03] [Server thread/INFO]: Panita5950 has made the advancement [Diamonds!]
-[23:06:30] [Server thread/INFO]: Named entity Zombie['███▌             '/12517, uuid='aa100a35-df88-461c-83c9-c2e3ecd6788b', l='ServerLevel[world]', x=968.90, y=-45.00, z=-774.98, cpos=[60, -49], tl=1215, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[23:06:56] [Server thread/INFO]: Named entity Skeleton['███▌             '/12685, uuid='b82a685f-dabb-47bc-a3f6-49898f28dfcc', l='ServerLevel[world]', x=958.30, y=-47.00, z=-802.70, cpos=[59, -51], tl=262, v=true] died: ███▌              was slain by xd600yu
-[23:07:22] [Server thread/INFO]: Named entity Skeleton['███████      '/12730, uuid='e34fcd92-2974-4ddd-aed8-6f248b7c616c', l='ServerLevel[world]', x=973.30, y=-42.00, z=-856.70, cpos=[60, -54], tl=436, v=true] died: ███████       was slain by xd600yu ||||||||||
-[23:07:29] [Server thread/INFO]: Named entity Skeleton['███▌             '/12442, uuid='d0c9e171-df15-4a6f-9c24-a2c9d0e1e080', l='ServerLevel[world]', x=986.30, y=-49.00, z=-873.70, cpos=[61, -55], tl=3520, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[23:07:38] [Server thread/INFO]: Named entity Creeper['███▌             '/12734, uuid='c5dca847-4595-4bdf-abd9-7dede7b3edfc', l='ServerLevel[world]', x=975.97, y=-46.00, z=-849.50, cpos=[60, -54], tl=725, v=true] died: ███▌              was slain by xd600yu
-[23:08:30] [Server thread/INFO]: Named entity Zombie['▌                   '/12428, uuid='55158e90-fa5b-43b0-be31-b5e6fe8779a4', l='ServerLevel[world]', x=982.78, y=-48.00, z=-857.45, cpos=[61, -54], tl=5060, v=true] died: ▌                    was slain by xd600yu
-[23:08:34] [Server thread/INFO]: Named entity Zombie['▌                   '/12689, uuid='b9fe2255-0bc0-4575-b85a-57e2860be106', l='ServerLevel[world]', x=979.90, y=-47.00, z=-858.91, cpos=[61, -54], tl=2170, v=true] died: ▌                    was slain by xd600yu
-[23:08:43] [Async Chat Thread - #26/INFO]: [Not Secure] <Panita5950> casi muero
-[23:08:57] [Async Chat Thread - #26/INFO]: [Not Secure] <Panita5950> ontas
-[23:09:07] [Async Chat Thread - #26/INFO]: [Not Secure] <xd600yu> aca
-[23:09:38] [Async Chat Thread - #26/INFO]: [Not Secure] <Panita5950> no te veo
-[23:11:03] [Server thread/INFO]: Panita5950 drowned
-[23:11:12] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> hasme tp
-[23:11:15] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> mori
-[23:11:19] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> bro
-[23:11:26] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> mis cosas
-[23:11:28] [Async Chat Thread - #28/INFO]: [Not Secure] <xd600yu> pera que hay bichos
-[23:11:48] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> ya
-[23:12:00] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> we rapido
-[23:12:11] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:16] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:18] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> mis cosas
-[23:12:18] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:19] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:21] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> sonso
-[23:12:23] [Async Chat Thread - #28/INFO]: [Not Secure] <xd600yu> no me deja
-[23:12:26] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:32] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:39] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> eres sonso
-[23:12:39] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:40] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:40] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:41] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:42] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:42] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:43] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:44] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:44] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:45] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:45] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:46] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:47] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:12:51] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> ponme en modo expectador
-[23:13:04] [Server thread/INFO]: xd600yu issued server command: /gamemode creative
-[23:13:07] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:13:09] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:13:11] [Server thread/INFO]: xd600yu issued server command: /gamemode spectator
-[23:13:13] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:13:14] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:13:21] [Async Chat Thread - #28/INFO]: [Not Secure] <xd600yu> no deja men
-[23:13:27] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> usa /gamemode panita5950
-[23:13:29] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> :v
-[23:13:36] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> no te compliques
-[23:13:51] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> pedaso de guey
-[23:13:51] [Server thread/INFO]: xd600yu issued server command: /gamemode panita5950 spectator
-[23:14:05] [Async Chat Thread - #28/INFO]: [Not Secure] <xd600yu> dice que jugador no encontrado
-[23:14:14] [Async Chat Thread - #28/INFO]: [Not Secure] <xd600yu> salta y vuelve a entrar
-[23:14:22] [Server thread/INFO]: Panita5950 lost connection: Disconnected
-[23:14:22] [Server thread/INFO]: Panita5950 left the game
-[23:14:29] [Server thread/INFO]: xd600yu issued server command: /gamemode survival
-[23:14:29] [User Authenticator #2/INFO]: UUID of player Panita5950 is d21a19af-4023-3872-858d-da5446f3a683
-[23:14:31] [Server thread/INFO]: Panita5950 joined the game
-[23:14:31] [Server thread/INFO]: Panita5950[/127.137.85.205:51925] logged in with entity id 13780 at ([world]987.4463280474333, 66.0, -776.6556855105141)
-[23:14:36] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:14:39] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:14:39] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:14:40] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:14:40] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:14:41] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:14:41] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:14:45] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:14:50] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> pedaso de guey recupera mis cosas
-[23:14:53] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> mejor
-[23:14:55] [Async Chat Thread - #28/INFO]: [Not Secure] <Panita5950> :v
-[23:14:56] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 60 60 60
-[23:15:08] [Async Chat Thread - #28/INFO]: [Not Secure] <xd600yu> hazme un tpa
-[23:15:53] [Async Chat Thread - #28/INFO]: [Not Secure] <xd600yu> pon /tpa
-[23:17:08] [Async Chat Thread - #30/INFO]: [Not Secure] <xd600yu> ya>
-[23:17:11] [Async Chat Thread - #30/INFO]: [Not Secure] <xd600yu> ?
-[23:17:19] [Async Chat Thread - #30/INFO]: [Not Secure] <xd600yu> pon /tpa y mi nombre
-[23:17:57] [Server thread/INFO]: Named entity Sheep['█████          '/12268, uuid='cd871f17-d109-45e6-b424-93c937540ada', l='ServerLevel[world]', x=1153.34, y=79.00, z=-854.53, cpos=[72, -54], tl=77, v=true] died: █████           was slain by Wolf
-[23:18:13] [Async Chat Thread - #30/INFO]: [Not Secure] <xd600yu> salve la mayoria de tus cosas
-[23:18:33] [Server thread/INFO]: xd600yu issued server command: /gm c
-[23:18:55] [Server thread/INFO]: xd600yu issued server command: /gm survival
-[23:19:06] [Server thread/INFO]: Named entity Zombie['████▌           '/14613, uuid='3a183de0-f728-43ea-816b-82e531fdefe9', l='ServerLevel[world]', x=956.63, y=-46.00, z=-798.19, cpos=[59, -50], tl=717, v=true] died: ████▌            was slain by xd600yu
-[23:19:39] [Async Chat Thread - #32/INFO]: [Not Secure] <xd600yu> cuantos diamantes tenias?
-[23:19:50] [Async Chat Thread - #32/INFO]: [Not Secure] <xd600yu> que se juntaron con los mios
-[23:20:06] [Server thread/INFO]: xd600yu has made the advancement [Cover Me with Diamonds]
-[23:20:45] [Server thread/INFO]: Named entity Zombie['███▌             '/14828, uuid='5339a752-425c-4611-814b-5c640814934d', l='ServerLevel[world]', x=972.45, y=-43.00, z=-766.37, cpos=[60, -48], tl=1237, v=true] died: ███▌              was slain by xd600yu ||||||||||
-[23:20:46] [Server thread/INFO]: Named entity Zombie['██▌               '/14503, uuid='1b467fb4-b3c4-442b-a5c5-cb16fa6b1dc3', l='ServerLevel[world]', x=971.71, y=-43.00, z=-766.88, cpos=[60, -48], tl=3365, v=true] died: ██▌                was slain by xd600yu ||||||||||
-[23:21:14] [Async Chat Thread - #34/INFO]: [Not Secure] <xd600yu> bro?
-[23:21:28] [Server thread/INFO]: xd600yu has made the advancement [Suit Up]
-[23:21:41] [Server thread/INFO]: Panita5950 was slain by Zombie
-[23:21:54] [Async Chat Thread - #34/INFO]: [Not Secure] <xd600yu> broo?
-[23:21:59] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 60 60 60
-[23:22:04] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:06] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:08] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:08] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:09] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:10] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:10] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:11] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:40] [Server thread/INFO]: Nothing changed. The player already is an operator
-[23:22:46] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:48] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:48] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:49] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:22:50] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:23:29] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp panitatp panita5950 xd600yu
-[23:23:29] [Server thread/INFO]: Error: Player not found.
-[23:23:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp panita5950 xd600yu
-[23:24:54] [Server thread/INFO]: xd600yu issued server command: /op Panita5950
-[23:24:54] [Server thread/INFO]: [xd600yu: Made Panita5950 a server operator]
-[23:24:59] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:26:56] [Server thread/INFO]: xd600yu issued server command: /deop Panita5950
-[23:26:56] [Server thread/INFO]: [xd600yu: Made Panita5950 no longer a server operator]
-[23:27:11] [Async Chat Thread - #36/INFO]: [Not Secure] <xd600yu> bro sigues ahi?
-[23:27:43] [Server thread/INFO]: xd600yu issued server command: /gm spectator
-[23:27:50] [Server thread/INFO]: xd600yu issued server command: /tp xd600yu Panita5950
-[23:28:02] [Server thread/INFO]: xd600yu issued server command: /tp xd600yu Panita5950
-[23:28:12] [Server thread/INFO]: xd600yu issued server command: /gm survival
-[23:28:20] [Server thread/INFO]: xd600yu issued server command: /tp xd600yu Panita5950
-[23:29:18] [Server thread/INFO]: xd600yu issued server command: /gamemode survival Panita5950
-[23:29:25] [Server thread/INFO]: xd600yu issued server command: /tp xd600yu Panita5950
-[23:31:46] [Server thread/INFO]: xd600yu issued server command: /tp Panita5950 xd600yu
-[23:32:51] [Server thread/INFO]: xd600yu lost connection: Disconnected
-[23:32:51] [Server thread/INFO]: xd600yu left the game
-[23:33:01] [Server thread/INFO]: Stopping the server
-[23:33:01] [Server thread/INFO]: Stopping server
-[23:33:01] [Server thread/INFO]: [HealthBar] Disabling HealthBar v1.8.3
-[23:33:01] [Server thread/INFO]: [HealthBar] [STDOUT] HealthBar disabled, all the health bars have been removed.
-[23:33:01] [Server thread/WARN]: Nag author(s): '[filoghost]' of 'HealthBar v1.8.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[23:33:01] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.3
-[23:33:01] [Server thread/INFO]: [SetSpawn] Disabled!
-[23:33:01] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.5.1
-[23:33:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
-[23:33:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[23:33:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[23:33:01] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
-[23:33:01] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
-[23:33:01] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[23:33:01] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
-[23:33:01] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[23:33:01] [Server thread/INFO]: Saving players
-[23:33:01] [Server thread/INFO]: Panita5950 lost connection: Server closed
-[23:33:01] [Server thread/INFO]: Panita5950 left the game
-[23:33:01] [Server thread/INFO]: Saving worlds
-[23:33:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:33:01] [WebSocketConnectReadThread-90/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Saved 73 block chunks, 96 entity chunks, 0 poi chunks in world 'world' in 0.20s
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[23:33:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[23:33:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[23:33:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[23:33:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:33:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:33:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:33:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:33:01] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[23:33:01] [Server thread/INFO]: All I/O tasks to complete
-[23:33:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[23:33:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[23:33:57] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[23:33:58] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 315.4ms
+[23:33:58] [Server thread/INFO]: Preparing spawn area: 2%
+[23:33:58] [Server thread/INFO]: Preparing spawn area: 2%
+[23:33:58] [Server thread/INFO]: Time elapsed: 1332 ms
+[23:33:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:33:58] [Server thread/INFO]: Preparing spawn area: 0%
+[23:33:59] [Server thread/INFO]: Time elapsed: 209 ms
+[23:33:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:33:59] [Server thread/INFO]: Preparing spawn area: 0%
+[23:33:59] [Server thread/INFO]: Time elapsed: 90 ms
+[23:33:59] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[23:33:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
+[23:33:59] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[23:34:00] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[23:34:00] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[23:34:00] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[23:34:00] [Server thread/INFO]: [Essentials] Using locale en
+[23:34:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:34:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:34:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[23:34:00] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[23:34:00] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[23:34:00] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[23:34:00] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[23:34:00] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[23:34:00] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[23:34:00] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[23:34:01] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.1
+[23:34:01] [Server thread/INFO]: [sleep-most] Hooked to Essentials
+[23:34:01] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.3
+[23:34:01] [Server thread/INFO]: [SetSpawn] Enabled!
+[23:34:01] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.3*
+[23:34:01] [Server thread/INFO]: [spark] Starting background profiler...
+[23:34:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[23:34:01] [Server thread/INFO]: [Geyser-Spigot] 
+[23:34:01] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b734 (git-master-64c7adc)
+[23:34:01] [Server thread/INFO]: [Geyser-Spigot] 
+[23:34:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[23:34:05] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[23:34:05] [Server thread/INFO]: [Geyser-Spigot] Done (3.734s)! Run /geyser help for help!
+[23:34:05] [Server thread/WARN]: [Geyser-Spigot] Your server software does not support the Java version that Geyser requires (1.21.4). Please install ViaVersion (https://ci.viaversion.com/job/ViaVersion/) or update your server software!
+[23:34:05] [Server thread/INFO]: Done preparing level "world" (8.717s)
+[23:34:05] [Server thread/INFO]: Running delayed init tasks
+[23:34:05] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[23:34:05] [Server thread/INFO]: Done (30.222s)! For help, type "help"
+[23:34:06] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
+[23:34:06] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[23:34:29] [Server thread/INFO]: Stopping the server
+[23:34:29] [Server thread/INFO]: Stopping server
+[23:34:29] [Server thread/INFO]: [HealthBar] Disabling HealthBar v1.8.3
+[23:34:29] [Server thread/INFO]: [HealthBar] [STDOUT] HealthBar disabled, all the health bars have been removed.
+[23:34:29] [Server thread/WARN]: Nag author(s): '[filoghost]' of 'HealthBar v1.8.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[23:34:29] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v5.3
+[23:34:29] [Server thread/INFO]: [SetSpawn] Disabled!
+[23:34:29] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.5.1
+[23:34:29] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[23:34:29] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[23:34:29] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[23:34:29] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
+[23:34:29] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3-SNAPSHOT-986;a2a5545
+[23:34:29] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:34:29] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
+[23:34:29] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[23:34:29] [Server thread/INFO]: Saving players
+[23:34:29] [Server thread/INFO]: Saving worlds
+[23:34:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:34:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:34:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:34:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:34:29] [WebSocketConnectReadThread-87/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.33s
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[23:34:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.11s
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[23:34:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.06s
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[23:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:34:30] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[23:34:30] [Server thread/INFO]: All I/O tasks to complete
+[23:34:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[23:34:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
