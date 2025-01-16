@@ -131,3 +131,10 @@ Update at https://www.spigotmc.org/resources/13932/
 [00:30:42] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
 [00:30:42] [Server thread/INFO]: Done (43.448s)! For help, type "help"
 [00:31:42] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:48:18] [User Authenticator #0/INFO]: UUID of player xd600yu is ad24774e-c992-3e4c-9e0c-e2e893f74d49
+[00:48:19] [Server thread/INFO]: xd600yu joined the game
+[00:48:20] [Server thread/INFO]: xd600yu[/127.128.241.31:46453] logged in with entity id 69 at ([world]92.20212322154003, 63.0, 67.69999998807907)
+[00:48:20] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[00:48:39] [Server thread/INFO]: xd600yu lost connection: Disconnected
+[00:48:39] [Server thread/INFO]: xd600yu left the game
+[00:49:39] [Server thread/INFO]: Server empty for 60 seconds, pausing
